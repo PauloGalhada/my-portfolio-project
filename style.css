@@ -109,10 +109,11 @@ body {
   }
   
   .profile_image {
-    /*width: 300px;*/
-    width: max-width;
-    height: fit-content;
-    vertical-align: middle;
+    width: 150px;
+    /*height: fit-content;
+    vertical-align: middle;*/
+    height: auto; /* Allow automatic height calculation */
+    padding-bottom: 0%; /* Preserve aspect ratio */
     margin: 20px;
   }
   
